@@ -4,10 +4,11 @@
 
 ## 👨‍👨‍👧‍👧팀원소개
 
-|존명 | Github|
------------- | -------------
-이종현 | [@tomtom1103](https://github.com/tomtom1103)
-이진우 | [@dlwlsdn0225](https://github.com/dlwlsdn0225)
-차민성 | [@djpanda1217](https://github.com/djpanda1217)
-이우준 | [@johnbuzz98](https://github.com/johnbuzz98)
-전지인 | [@jeon-100](https://github.com/jeon-100)
+## 😸이종현 [@tomtom1103](https://github.com/tomtom1103)
+## 🏋️이진우 [@dlwlsdn0225](https://github.com/dlwlsdn0225)
+## 🐼차민성 [@djpanda1217](https://github.com/djpanda1217)
+## 👩‍🚀이우준 [@johnbuzz98](https://github.com/johnbuzz98)
+## 👸전지인 [@jeon-100](https://github.com/jeon-100)
+
+
+## 📚프로젝트 소개
