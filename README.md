@@ -1,3 +1,1 @@
-# 📚2021 Korea University Datathon - Peachtree
-
-https://capsule-render.vercel.app/api[header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Korea University Datathon - Peachtree&fontSize=70&animation=scaleIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Korea%20University%20Datathon%20-%20Peachtree&fontSize=70)
