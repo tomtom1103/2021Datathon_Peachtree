@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=📚Korea%20University%20Datathon%20-%20Peachtree&fontSize=40)
 
-### 난세를 바로잡기 위해 애기능 동산의 그들이 모였다.
+### 난세를 바로잡기 위해 애기능 동산의 그들이 모였다. 최적반의 도원결의.
 
 ## 👨‍👨‍👧‍👧팀원소개
 
