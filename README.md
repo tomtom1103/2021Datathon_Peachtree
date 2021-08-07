@@ -12,4 +12,4 @@
 
 ## 📚프로젝트 소개
 
-![alt text](/Users/jonghyunlee/Desktop/dangjang.png)
+![alt text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/dangjang.png)
