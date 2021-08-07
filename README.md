@@ -29,7 +29,8 @@
 ### 7. Frontend 구축 - Flask, JavaScript
 
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/edaexample.png)
-### Data EDA 과정 예시. ~~역시 고경~~
+### Data EDA 과정 예시.
+~~역시 고경~~
 
 
 
