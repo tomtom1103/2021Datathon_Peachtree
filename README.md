@@ -11,3 +11,5 @@
 ### 👸전지인 [@jeon-100](https://github.com/jeon-100)
 
 ## 📚프로젝트 소개
+
+![alt text](/Users/jonghyunlee/Desktop/dangjang.png)
