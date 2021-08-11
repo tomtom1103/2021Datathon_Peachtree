@@ -246,7 +246,7 @@ def similarity_scholarship(student_value, ff_list):
 ```
 similarity_scholarship 은 DBSCAN 으로 진행한 장학금에 대한 클러스터링의 인덱스와 학생의 클러스터링 인덱스의 코사인 유사도를 구해주는 함수다. student_val의 결과값인 리스트와 first_filter의 결과값인 리스트를 인자로 받는다. DBSCAN 클러스터 결과물의 인덱스값을 각 장학금에 대해 정의하고, 원핫 인코딩을 통해 dataframe을 만들어준다. 동시에 학생의 입력 정보에 대해 클러스터링 결과물의 인덱스값을 원핫 인코딩한 dataframe 도 만들어준다. 학생의 원핫 인코딩 한 클러스터링 벡터와 각 장학금에 대한 원핫 인코딩 한 클러스터링 벡터를 for 문으로 이전에 정의한 cos_similarity 함수를 통해 코사인 유사도를 구해준다. 코사인 유사도가 가장 높은 장학금의 PK 값인 id_scholarship 을 리스트로 반환해 준다.
 
-#### first_engine 함수
+#### filter_engine 함수
 
 ```python
 def filter_engine(ss_list):
@@ -313,8 +313,7 @@ def filter_engine(ss_list):
 
     return result_dic
 ```
-first_engine 함수는 first_filter의 return 값인 리스트를 인자로 받는다. 학생과 유사도가 가장 높은 장학금들에 대해 그 장학금이 DB에 있는 다른 장학금들과의 유사도를 구하는 함수다.
-
+filter_engine 함수는 similarity_scholarship의 return 값인 id_scholarship의 리스트를 인자로 받는다. 해당 함수는 여러 조합의 장학금의 묶음을 리턴해준다. 우선적으론similarity_scholarship 함수의 리턴값의 상위 5개를 AI 추천 장학금명으로 cluster_info 함수에 넣어준다. 해당결과 (각 장학금 ID에 대한 장학금 정보)를 dictionary 형태로 묶어준다. (차후 JSON으로 바꿔주기 위한 포맷팅) 이후 특이사항, 지역, (특이사항과 지역은 그룹핑의 결과가 3개, 2개 이상인 경우만 출력한다) 장학금의 활동성 여부, 장학금의 성격, 지원금액의 유형들을 유동적으로 리스팅하여 이 또한 위와 같이 dictionary로 포매팅한다. 이를 최종함수로 보내 json으로 묶어 return 해준다.
 
 # main.py
 
