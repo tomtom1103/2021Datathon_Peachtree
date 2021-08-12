@@ -1,6 +1,6 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=📚Korea%20University%20Datathon%20-%20Peachtree&fontSize=40)
 
-### 난세를 바로잡기 위해 애기능 동산의 그들이 모였다. 최적반의 도원결의!
+### 난세를 바로잡기 위해 애기능 동산의 그들이 모였다. ⚔️최적반의 도원결의!⚔️
 
 ## 👨‍👨‍👧‍👧팀원소개
 
@@ -28,12 +28,11 @@
 ### 6. Filter Algorithm
 ### 7. Frontend 구축 - HTML, CSS, JavaScript
 
-![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/edaexample.png)
-
-### 당장! 의 PEACHTREE Engine Flow
+### ⚙️당장! 의 PEACHTREE Engine Flow
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/engine.png)
 
-### 당장! 의 Web
+### 👩‍💻당장! 의 Web
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/fe1.png)
+
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/fe2.png)
 
