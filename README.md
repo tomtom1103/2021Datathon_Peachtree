@@ -31,6 +31,8 @@
 ### ⚙️당장! 의 PEACHTREE Engine Flow
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/engine.png)
 
+##### Engine 에 대한 자세한 설명은 [/code/backend/README!!](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/code/backend/README.md)
+
 ### 👩‍💻당장! 의 Web
 ![alt_text](https://github.com/tomtom1103/2021Datathon_Peachtree/blob/master/image/fe1.png)
 
