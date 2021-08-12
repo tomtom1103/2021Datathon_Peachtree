@@ -244,7 +244,7 @@ def similarity_scholarship(student_value, ff_list):
     return best_similarity_pk
 
 ```
-similarity_scholarship 은 DBSCAN 으로 진행한 장학금에 대한 클러스터링의 인덱스와 학생의 클러스터링 인덱스의 코사인 유사도를 구해주는 함수다. student_val의 결과값인 리스트와 first_filter의 결과값인 리스트를 인자로 받는다. DBSCAN 클러스터 결과물의 인덱스값을 각 장학금에 대해 정의하고, 원핫 인코딩을 통해 dataframe을 만들어준다. 동시에 학생의 입력 정보에 대해 클러스터링 결과물의 인덱스값을 원핫 인코딩한 dataframe 도 만들어준다. 학생의 원핫 인코딩 한 클러스터링 벡터와 각 장학금에 대한 원핫 인코딩 한 클러스터링 벡터를 for 문으로 이전에 정의한 cos_similarity 함수를 통해 코사인 유사도를 구해준다. 코사인 유사도가 가장 높은 장학금의 PK 값인 id_scholarship 을 리스트로 반환해 준다.
+similarity_scholarship 은 DBSCAN 으로 진행한 장학금에 대한 클러스터링의 인덱스와 학생의 클러스터링 인덱스의 코사인 유사도를 구해주는 함수다. student_val의 결과값인 리스트와 first_filter의 결과값인 리스트를 인자로 받는다. DBSCAN 클러스터 결과물의 인덱스값을 각 장학금에 대해 정의하고, 원핫 인코딩을 통해 dataframe을 만들어준다. 동시에 학생의 입력 정보에 대해 클러스터링 결과물의 인덱스값을 원핫 인코딩한 dataframe 도 만들어준다. 학생의 원핫 인코딩 한 클러스터링 벡터와 각 장학금에 대한 원핫 인코딩 한 클러스터링 벡터를 for 문으로 이전에 정의한 cos_similarity 함수를 통해 코사인 유사도를 구해준다. 코사인 유사도가 높은 장학금의 PK 값인 id_scholarship 을 내림차순 리스트로 반환해 준다.
 
 #### filter_engine 함수
 
